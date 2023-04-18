@@ -12,9 +12,3 @@
 <script setup>
   const  { pending, data: users } = await useLazyFetch('https://jsonplaceholder.typicode.com/users');
 </script>
-
-<style scoped>
-  .routeclass {
-    color: red;
-  }
-</style>
