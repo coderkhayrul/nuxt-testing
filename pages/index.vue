@@ -10,5 +10,12 @@
 </template>
 
 <script setup>
+definePageMeta({
+    pageTransition: {
+        name: 'bounce',
+        mode: 'out-in' // default
+    }
+})
+
   const  { pending, data: users } = await useLazyFetch('https://jsonplaceholder.typicode.com/users');
 </script>
