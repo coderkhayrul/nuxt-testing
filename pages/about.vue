@@ -1,13 +1,4 @@
 <template>
-<h2>Abot Page</h2>
+<h2>About Page</h2>
+    <NuxtLink to="/">Back To Home</NuxtLink>
 </template>
-
-<script>
-export default {
-    name: "about"
-}
-</script>
-
-<style scoped>
-
-</style>
